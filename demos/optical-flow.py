@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('highway-driving.mp4')
+cap = cv2.VideoCapture('../assets/videos/highway-driving.mp4')
 
 # params for ShiTomasi corner detection
 feature_params = dict( maxCorners = 100,

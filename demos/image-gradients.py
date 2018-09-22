@@ -4,7 +4,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 from matplotlib import pyplot as plt
 
-img = cv2.imread('highway-660x396.jpg',0)
+img = cv2.imread('../assets/images/highway-660x396.jpg',0)
 
 laplacian = cv2.Laplacian(img,cv2.CV_64F)
 sobelx = cv2.Sobel(img,cv2.CV_64F,1,0,ksize=3)
