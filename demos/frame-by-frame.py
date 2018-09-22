@@ -1,5 +1,6 @@
 import cv2
-cap = cv2.VideoCapture('../assets/gifs/highway_long.gif')
+#cap = cv2.VideoCapture('../assets/gifs/highway_long.gif')
+cap = cv2.VideoCapture(0)
 count = 0
 while cap.isOpened():
     ret,frame = cap.read()
